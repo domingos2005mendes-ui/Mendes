@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tecno-3D</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0055aa;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 5px 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 30px;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #bbb;
+    }
+    section img {
+      width: 100%;
+      max-width: 600px;
+[16/11, 21:08] Chat: display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #003366;
+    }
+    footer {
+      text-align: center;
+      background-color: #003366;
+      color: white;
+      padding: 15px;
+    }
+    .top-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #0055aa;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    @media (max-width: 600px) {
+      section {
+        padding: 20px;
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bem-vindo ao Mundo da Informática</h1>
+  </header>
+
+  <nav>
+    <a href="#intro">Introdução</a>
+    <a href="#historia">História</a>
+    <a href="#hardware">Hardware</a>
+    <a href="#software">Software</a>
+    <a href="#office">Office</a>
+    <a href="#curiosidades">Curiosidades</a>
+  </nav>
+
+  <section id="intro">
+    <h2>1. Introdução à Informática</h2>
+    <p>A evolução da informática, apoiada
+      na evolução da tecnologia em geral e na da 
+      electrónica, criou novos termos e conceito . 
+      alguns a os seus termos em Portugues, outros
+      são um adaptação "aportuguesada" , outros 
+      ainda são conhecidos pelos designação original 
+      em ingles. Mas também há conceito usado
+      na duas (2) línguas, como é o caso dos temos : rato e mouse</p>
+    <p>A informática é a ciência que estuda o processamento de dados por meios automáticos. É usada em todas as áreas do nosso dia a dia.</p>
+    <img src="content://media/external/downloads/1000164865" alt="Informática básica">
+  </section>
+  <section>
+    <h2>BREVE HISTÓRIA DOS COMPUTADORES</h2>
+    <p>Nos dias de hoje é impensável imaginar a vida sem computador,ainda que não seja utilizada para usos pessoal, pelo menos nos serviço indirecto que nos prestam. A percepçao que temos é a de que eles são um instrumento recente mas na verdade eles existem a milhares de anos.
+      A diferença é que nos últimos anos evolúiram muito, tansfiguramram-se e popularizaram-se</p>
+    <p>O homem sempre arranjou forma de resolver os problemas. Um exemplo era como fazer contas. Evoluindo conforme a necessidade, pedida . O homem contava as suas cabras pelos dedos (PRIMEIRO COMPUTADOR), dai o "dígito" ,mas teve de encotrar forma de contar quantidades
+      maiores e, também, de proceder a cálculas mais complexos</p>
+    <p>
+O Ábaco terá sido a primeira máquinas mecanica capaz de fazer contas. A sua inveção é atribuída aos chineses , mas há quem denfende 
+      que eles aperfeiçoaram, tendo sido inventado em Mesopotamia há mais de 5500 anos</p>
+    <p>Desde o ábaco até a inteligência artificial, os computadores evoluíram de forma impressionante, mudando o mundo em poucas décadas.</p>
+    <img src="content://media/external/downloads/1000164871" alt="ENIAC - primeiro computador eletrônico">
+  </section>
+
+  <section id="hardware">
+    <h2>3. Hardware</h2>
+    <p>HARDOWERE: é a parte física do computador , os componentes electrónicos 
+      , os circuito intregrados , o que podemos ver , como o processador 
+      , o moitor , as memória o disco rígido , o teclado ,electrónica</p>
+    <p>Hardware é a parte física do computador: teclado, monitor, CPU, disco rígido, etc.</p>
+    <img src="content://media/external/downloads/1000164872" alt="Partes de hardware">
+  </section>
+
+  <section id="software">
+    <h2>4. Software</h2>
+    <p>Software é o conjunto de programas e aplicativos que fazem o hardware funcionar: sistemas operacionais, jogos, navegadores e mais.</p>
+    <img src="content://media/external/downloads/1000164873" alt="Exemplo de software">
+  </section>
+
+  <section id="office">
+    <h2>5. Pacote Office</h2>
+    <p>O Pacote Office inclui programas como Word, Excel, PowerPoint e Outlook, usados para produtividade no trabalho e na escola.</p>
+    <img src="content://media/external/downloads/1000164874" alt="Ícones do pacote Office">
+  </section>
+
+  <section id="curiosidades">
+ <h2>6. Curiosidades</h2>
+    <p>O primeiro mouse foi feito de madeira. O smartphone de hoje é milhões de vezes mais rápido que os computadores da NASA nos anos 60!</p>
+    <img src="content://media/external/downloads/1000164878" alt="Primeiro mouse">
+  </section>
+
+  <button class="top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    ↑ Topo
+  </button>
+
+  <footer>
+    <p>Site criado por Domingos Fiel Mendesu – @ 2025</p>
+  </footer>
+
+  </h1>
+</body>
+</html>
